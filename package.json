@@ -1,0 +1,27 @@
+{
+  "name": "crowd-funding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metacorn/thinknetica-react.git"
+  },
+  "author": "@metacorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metacorn/thinknetica-react/issues"
+  },
+  "homepage": "https://github.com/metacorn/thinknetica-react#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
