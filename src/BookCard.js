@@ -5,8 +5,7 @@ import AuthorInfo from './AuthorInfo';
 
 class BookCard extends React.Component {
     render() {
-        const book = (({ title, description, pages, language, progress, coverUrl, minimalPrice, desirablePrice }) => ({ title, description, pages, language, progress, coverUrl, minimalPrice, desirablePrice }))(this.props.book);
-        const author = this.props.book.author;
+        const { author, ...book } = this.props.book
 
         return (
             <div style={styles.container}>
