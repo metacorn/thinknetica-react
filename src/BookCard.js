@@ -1,5 +1,4 @@
 import React from 'react';
-
 import BookInfo from './BookInfo';
 import AuthorInfo from './AuthorInfo';
 
