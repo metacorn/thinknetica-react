@@ -4,13 +4,33 @@
   "pages": 275,
   "language": "English",
   "progress": 60,
-  "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440319389l/4981.jpg",
-  "author": {
-    "fullName": "Kurt Vonnegut",
-    "email": "kurt@vonnegut.com",
-    "avatarUrl": "https://images.gr-assets.com/authors/1433582280p5/2778055.jpg",
-    "about": "American novelist, satirist, and most recently, graphic artist."
-  },
+  "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Slaughterhouse-Five_%28first_edition%29_-_Kurt_Vonnegut.jpg/330px-Slaughterhouse-Five_%28first_edition%29_-_Kurt_Vonnegut.jpg",
+  "authors": [
+    {
+      "fullName": "Kurt Vonnegut",
+      "email": "kurt@vonnegut.com",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kurt_Vonnegut_1972.jpg/330px-Kurt_Vonnegut_1972.jpg",
+      "about": "American novelist, satirist, and most recently, graphic artist."
+    },
+    {
+      "fullName": "Kilgore Trout",
+      "email": "kilgore@trout.com",
+      "avatarUrl": "https://alchetron.com/cdn/kilgore-trout-f712a0a8-d9fb-46cb-ab12-fd1c98fc33b-resize-750.jpeg",
+      "about": "Notably unsuccessful author of paperback science fiction novels."
+    },
+    {
+      "fullName": "Theodor Sturgeon",
+      "email": "theodore@sturgeon.com",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/en/e/e6/Theodore_Sturgeon.jpg",
+      "about": "American fiction author of primarily fantasy, science fiction and horror."
+    },
+    {
+      "fullName": "Mr. Hidden",
+      "email": "hidden@gmail.com",
+      "avatarUrl": "https://telegram.org.ru/uploads/posts/2018-04/1523986370_file_488917.jpg",
+      "about": "Nothing to say more."
+    }
+  ],
   "minimalPrice": 10,
   "desirablePrice": 15
 }
