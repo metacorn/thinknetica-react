@@ -1,10 +1,19 @@
 import React from 'react';
+import { authorInfoWidth, authorInfoPadding } from './settings';
+
+const styles = {
+    container: {
+        padding: authorInfoPadding,
+        width: authorInfoWidth
+    },
+    avatar: {
+        width: authorInfoWidth
+    }
+};
 
 class AuthorInfo extends React.Component {
     render() {
-        const {
-            author: { avatarUrl, fullName, about }
-        } = this.props;
+        const { avatarUrl, fullName, about } = this.props.author;
 
         return (
             <div style={styles.container}>
@@ -17,14 +26,3 @@ class AuthorInfo extends React.Component {
 };
 
 export default AuthorInfo;
-
-const blockWidth = 150;
-const styles = {
-    container: {
-        padding: 10,
-        width: blockWidth
-    },
-    avatar: {
-        width: blockWidth
-    }
-};
