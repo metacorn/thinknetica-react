@@ -1,4 +1,15 @@
 import React from 'react';
+import { bookInfoWidth, bookInfoPadding } from './settings';
+
+const styles = {
+    container: {
+        padding: bookInfoPadding,
+        width: bookInfoWidth
+    },
+    cover: {
+        width: bookInfoWidth
+    }
+};
 
 class BookInfo extends React.Component {
     render() {
@@ -20,14 +31,3 @@ class BookInfo extends React.Component {
 };
 
 export default BookInfo;
-
-const blockWidth = 300;
-const styles = {
-    container: {
-        padding: 10,
-        width: blockWidth
-    },
-    cover: {
-        width: blockWidth
-    }
-};
